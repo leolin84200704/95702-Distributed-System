@@ -1,0 +1,8 @@
+heroku container:push web -a obscure-island-61689
+heroku container:release web -a obscure-island-61689
+heroku open -a obscure-island-61689
+
+
+heroku apps # which apps you've pushed
+heroku apps:destroy obscure-island-61689 # you're only allowed 5 on the free tier
+heroku logs --tail -a obscure-island-61689 # if you get a heroku error message in the browser

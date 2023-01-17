@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CurrencyWeb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CurrencyWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CurrencyWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CurrencyWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

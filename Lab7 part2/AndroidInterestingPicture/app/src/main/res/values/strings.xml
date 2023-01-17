@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidInterestingPicture</string>
+    <string name="hello">Type a keyword to search for an interesting picture.</string>
+    <string name="action_settings">Action</string>
+</resources>
