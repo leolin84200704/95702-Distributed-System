@@ -89,7 +89,7 @@ public class CurrencyExchangeServlet extends HttpServlet {
                 nextView = "prompt.jsp";
             }
 
-        } else if (path.contains("getDashBoard")){
+        }else if(path.contains("getDashBoard")){
             CurrencyExchangeModel.getMongoDB();
             request.setAttribute("result", CurrencyExchangeModel.sb);
             ArrayList<String> fromStrings = new ArrayList<>();

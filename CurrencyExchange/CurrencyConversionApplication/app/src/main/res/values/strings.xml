@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="fromText">Please Enter the Amount</string>
+    <string name="convertedString">Please click on Submit</string>
+    <string name="submitButtonString">Submit</string>
+    <string name="resetButtonString">Reset</string>
+
+    <string-array name="conversionOptions">
+        <item>USD</item>
+        <item>JPY </item>
+        <item>DKK </item>
+        <item>GBP </item>
+        <item>HUF </item>
+        <item>PLN </item>
+        <item>RON </item>
+        <item>SEK </item>
+        <item>INR </item>
+    </string-array>
+</resources>
