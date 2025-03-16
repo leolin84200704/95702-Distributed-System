@@ -49,6 +49,7 @@ public class CurrencyExchangeModel {
             String address = "https://api.frankfurter.app/latest?amount=" + amountString + "&from=" + currencies[currency_from_index] +
                     "&to=" + currencies[currency_to_index];
             String result = fetch(address);
+            System.out.println(address);
             JSONObject output_object = (JSONObject) JSONValue.parse(result);
             exchangeAmount = ((JSONObject) output_object.get("rates")).get(currencies[currency_to_index]).toString();
         }

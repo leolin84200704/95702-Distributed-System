@@ -1,0 +1,31 @@
+<!--Name: Hsiu-Yuan Yang-->
+<!--AndrewID: hsiuyuay-->
+<!--Email: hsiuyuay@andrew.cmu.edu-->
+<resources>
+    <string name="app_name">Activity Recommendation System</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello">Welcome! Are you bored?</string>
+    <string name="get_username">Please enter your name: </string>
+    <string name="get_user_selection">Please select one choice below: </string>
+    <string name="action_settings">Action</string>
+    <string name="option1">1. Find a random activity</string>
+    <string name="option2">2. Find a random activity with a preferred type</string>
+    <string name="option3">3. Find a random activity with a given number of participants</string>
+    <string name='spinnerPrompt'>Select one</string>
+    <string-array name="activity_type">
+        <item>education</item>
+        <item>recreational</item>
+        <item>social</item>
+        <item>diy</item>
+        <item>charity</item>
+        <item>cooking</item>
+        <item>relaxation</item>
+        <item>music</item>
+        <item>busywork</item>
+    </string-array>
+</resources>
